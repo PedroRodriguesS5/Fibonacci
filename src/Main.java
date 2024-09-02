@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+        Long lg1 = sc.nextLong();
 
-    Long lg1 = sc.nextLong();
-
-    System.out.println(Fibonacci.fibo(lg1));
+        System.out.println(Fibonacci.fibo(lg1));
+    }
 }
-
